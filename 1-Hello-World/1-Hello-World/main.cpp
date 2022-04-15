@@ -1,7 +1,7 @@
 #include <iostream> // Basic input output stream
 
 using namespace std; // std stands for "Standard"
-                     // Without this, you would have to manually enter std::cout and std::endl (see 1.1_Hello-World)
+                     // Without this, you would have to manually enter std::cout and std::endl
 
 // using std::cout;       // An alternative to using namespace
 
@@ -27,10 +27,7 @@ int main() { // The start of every program must have main (main function)
     Definitions
         - Header (#include <iostream> - Line 1)
         - Namespace (using namespace - Line 3)
-        - Function (int main - Line 6)
-        - Class
-        - Object
-        - Operator
+        - Function (int main - Line 8)
  
     Namespace
     "using namespace std": Also calld "using directive". Takes everything
@@ -41,6 +38,4 @@ int main() { // The start of every program must have main (main function)
     "using std::cout": Also called "using declaration". Very similar to
     using directive, except we are only pulling cout from the standard
     namespace, rather than everything.
- 
-    
 */
